@@ -1,0 +1,178 @@
+:root {
+    --gray-color: #BDBDBD;
+    --black-color: #2c2c2c;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+
+nav li {
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-align: left;
+}
+
+
+
+/* Main Content Styles */
+main {
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style de base pour la navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+/* Style pour le logo */
+.navbar img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Style pour la liste de navigation */
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Style pour les éléments de la liste */
+.nav-item {
+    margin-left: 15px;
+}
+
+/* Style pour les liens de navigation */
+.nav-link {
+    color: var(--black-color);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Ajouter un style pour l'élément actif */
+.nav-item.active .nav-link {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+/* Ajouter un effet au survol */
+.nav-link:hover {
+    color: #ddd;
+}
+
+
+
+
+
+
+
+
+/* Style de base pour la section Hero */
+.hero-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(0, 0, 0);
+    padding-left: 133px;
+    margin: 100px;
+    /* Ajustement pour la position gauche */
+}
+
+/* Style pour "PROJECT" */
+.hero-title {
+    top: 438px;
+    left: 133px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    font-weight: 10;
+    line-height: 64px;
+    text-align: left;
+    opacity: 0.2;
+    /* Opacité 0 selon votre demande, sinon ajuster */
+    transition: opacity 0.5s ease-in-out;
+    /* Pour un effet de transition */
+}
+
+/* Style pour "LOREM" */
+.hero-subtitle {
+    top: 502px;
+    left: 133px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    opacity: 1;
+    /* Opacité 0 selon votre demande, sinon ajuster */
+    transition: opacity 0.5s ease-in-out;
+    /* Pour un effet de transition */
+}
+
+/* Style pour le bouton (facultatif) */
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Exemple d'animation pour rendre les éléments visibles */
+.hero-section:hover .hero-title,
+.hero-section:hover .hero-subtitle {
+    opacity: 1;
+    /* Rendre visible au survol, sinon ajuster selon vos besoins */
+}
+
+
+/* Style pour l'image dans la section Hero */
+.hero-image {
+    width: 200px;
+    /* Ajuster la taille selon vos besoins */
+    height: auto;
+    /* Pour maintenir le ratio d'aspect */
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
