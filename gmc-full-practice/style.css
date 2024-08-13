@@ -32,7 +32,7 @@ nav li {
 
 
 
-/* Main Content Styles */
+
 main {
     padding: 40px;
 }
@@ -104,19 +104,9 @@ main {
 
 
 
-/* Style de base pour la section Hero */
-.hero-section {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    color: rgb(0, 0, 0);
-    padding-left: 133px;
-    margin: 100px;
-    /* Ajustement pour la position gauche */
-}
 
-/* Style pour "PROJECT" */
+
+
 .hero-title {
     top: 438px;
     left: 133px;
@@ -126,12 +116,11 @@ main {
     line-height: 64px;
     text-align: left;
     opacity: 0.2;
-    /* Opacité 0 selon votre demande, sinon ajuster */
     transition: opacity 0.5s ease-in-out;
-    /* Pour un effet de transition */
+
 }
 
-/* Style pour "LOREM" */
+
 .hero-subtitle {
     top: 502px;
     left: 133px;
@@ -141,12 +130,11 @@ main {
     line-height: 64px;
     text-align: left;
     opacity: 1;
-    /* Opacité 0 selon votre demande, sinon ajuster */
     transition: opacity 0.5s ease-in-out;
-    /* Pour un effet de transition */
+
 }
 
-/* Style pour le bouton (facultatif) */
+
 .hero-button {
     display: inline-block;
     margin-top: 20px;
@@ -162,17 +150,29 @@ main {
 .hero-section:hover .hero-title,
 .hero-section:hover .hero-subtitle {
     opacity: 1;
-    /* Rendre visible au survol, sinon ajuster selon vos besoins */
+
 }
 
 
-/* Style pour l'image dans la section Hero */
+
+
+
+.hero-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(0, 0, 0);
+    padding-left: 133px;
+    margin: 100px;
+}
+
+
 .hero-image {
-    width: 200px;
-    /* Ajuster la taille selon vos besoins */
-    height: auto;
-    /* Pour maintenir le ratio d'aspect */
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    top: 0px;
+    right: 0;
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
 }
